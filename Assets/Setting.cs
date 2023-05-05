@@ -21,13 +21,13 @@ public class Setting : MonoBehaviour
     }
     void Start()
     {
-        if(PlayerPrefs.HasKey("musicVolume"))
+        if(PlayerPrefs.HasKey("musicVolume") == true)
          {
-            PlayerPrefs.SetFloat("musicVolume", 1);
             Load();
          }
         else
         {
+            PlayerPrefs.SetFloat("musicVolume", 1);
             Load();
         }
         background.Play();
