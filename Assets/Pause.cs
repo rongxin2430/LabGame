@@ -36,6 +36,9 @@ public class Pause : MonoBehaviour
     }
     public void BackToMenu()
     {
+        pauseMenu.SetActive(false);
+        Time.timeScale = 1f;
+        isPaused = false;
         SceneManager.LoadScene("Menu");
     }
     public void ToSetting()
