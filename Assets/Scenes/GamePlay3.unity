@@ -1809,6 +1809,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f945cdc2637941d780d9a386b5b8733, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  body: {fileID: 0}
   speed: 2
   health: 1
   scale: 1
@@ -1935,7 +1936,7 @@ GameObject:
   - component: {fileID: 774452356}
   m_Layer: 0
   m_Name: DestoryIt
-  m_TagString: Untagged
+  m_TagString: Stone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1953,7 +1954,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 30
-  animator: {fileID: 0}
+  body: {fileID: 0}
 --- !u!61 &774452357
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3485,7 +3486,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 30
-  animator: {fileID: 0}
+  body: {fileID: 0}
 --- !u!61 &1323682726
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4741,7 +4742,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 30
-  animator: {fileID: 0}
+  body: {fileID: 0}
 --- !u!61 &2031821707
 BoxCollider2D:
   m_ObjectHideFlags: 0

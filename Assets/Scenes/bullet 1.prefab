@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 4015400804730053148}
   m_Layer: 0
   m_Name: bullet 1
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -140,8 +140,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 20
   bullets: {fileID: 2249534478175938805}
-  damage: 10
-  playSound: {fileID: 9162484586756249199}
   firing: {fileID: 4015400804730053148}
 --- !u!82 &9162484586756249199
 AudioSource:

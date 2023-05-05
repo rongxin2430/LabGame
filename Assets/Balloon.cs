@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class Balloon : MonoBehaviour
 {
-    Rigidbody2D body;
+    public Rigidbody2D body;
     public float speed = 2;
     private Vector2 direction;
     public int health = 1;
@@ -69,5 +69,12 @@ public class Balloon : MonoBehaviour
     public void PointLose()
     {
         MaxPointGain -= 1;
+    }
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Bullet")
+        {
+            hit(1);
+        }
     }
 }
